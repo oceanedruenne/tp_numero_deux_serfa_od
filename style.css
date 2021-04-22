@@ -1,0 +1,266 @@
+@font-face 
+{
+    font-family: 'VCR OSD Mono';
+    src: url(fonts/VCROSDMono.woff2) format('woff2'),
+        url(fonts/VCROSDMono.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face 
+{
+    font-family: 'Neuropol X Rg';
+    src: url(fonts/NeuropolXRg-Regular.woff2) format('woff2'),
+        url(fonts/NeuropolXRg-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body, html 
+{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.principale 
+{
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.top 
+{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    align-items: center;
+    background-color: black;
+}
+
+#logo 
+{
+    width: 90px;
+}
+
+.menu 
+{
+    height: 5em;
+    flex: 1;
+}
+
+.menu ul li 
+{
+    display: inline;
+    width: 80px;
+    margin: 0px;
+    text-align: center;
+}
+
+ul 
+{
+    text-align: center;
+    margin: 0;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    padding: 0;
+    height: 100%;
+}
+
+a 
+{
+    text-decoration: none;
+    color: #FF00F7;
+    font-family: 'VCR OSD Mono';
+    font-size: 20px;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+#ici 
+{
+    color:aqua;
+}
+
+#visuel 
+{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    object-position: center 46%;
+}
+
+h1 
+{
+    text-align: center;
+    font-family: 'Neuropol X Rg';
+    color:aqua;
+    padding-bottom: 2%;
+}
+
+#colonnes 
+{
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+#colonnes div img 
+{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#colonnes div 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#colonnes div:not(:last-child) 
+{
+    border-right: 2px solid #FF00F7;
+}
+
+#colonnes p 
+{
+    width: 80%;
+}
+
+p 
+{
+    text-align: center;
+    font-family: 'VCR OSD Mono';
+    color: #FF00F7;
+}
+
+#presentation 
+{
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 5%;
+}
+
+#societe 
+{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.paragraphes 
+{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.paragraphes img 
+{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.paragraphes h1 
+{
+    margin: 0 auto;
+}
+
+#contact 
+{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+#contact h1 
+{
+    margin: 0;
+}
+
+#contact > div 
+{
+    margin-left: 3em;
+}
+label, input 
+{
+    display: block;
+}
+
+input 
+{
+    height: 32px;
+}
+
+input, textarea 
+{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    background-color: white;
+    border: 0;
+}
+
+textarea 
+{
+    resize: none;
+}
+
+button 
+{
+    background-color: #FF00F7;
+    color: white;
+    border: none;
+    padding: 4px 32px;
+    font-size: 16px;
+    font-family: 'VCR OSD Mono';
+}
+
+
+iframe 
+{
+    margin-bottom: 13%;
+}
+
+th , td
+{
+    border: 1px solid white;
+    text-align: center;
+}
+
+table, caption
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: 'VCR OSD Mono';
+}
+
+.bottom 
+{
+    background-color: black;
+    margin-top: 3%;
+}
+
+.bottom p 
+{
+    color:chartreuse;
+}
